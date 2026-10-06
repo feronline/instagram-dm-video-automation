@@ -1,0 +1,38 @@
+# Gizli bilgiler
+.env
+*.pem
+*.key
+
+# Çalışma durumu / kişisel veri (DM içerikleri, hesap kimlikleri, loglar)
+batch/auto/state.json
+batch/auto/auto.log
+batch/auto/run.lock
+batch/auto/tick_out*.txt
+batch/work/
+batch/_trash/
+
+# Üretilen medya ve indirilen üçüncü kişi içerikleri (telifli olabilir)
+batch/renders/
+batch/previews/
+batch/projects/
+batch/voiceovers/
+batch/captions/
+batch/scripts/
+*.mp4
+*.mp3
+*.wav
+*.mov
+
+# İkili araçlar ve yeniden dağıtılamayan fontlar (kullanıcı kendi indirir)
+batch/tools/
+batch/fontcache/
+*.ttf
+*.otf
+*.woff2
+*.exe
+
+# Python / sistem
+__pycache__/
+*.pyc
+*.lnk
+.claude/
